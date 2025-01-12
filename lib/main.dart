@@ -16,78 +16,94 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Color(0xFFFFDAB9),
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFFF5733),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFFFF5733),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(1);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFFFA500),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFFFFA500),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(2);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(2);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFFFFF33),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFFFFFF33),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(3);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(3);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF33CC33),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFF33CC33),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(4);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(4);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF3399FF),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFF3399FF),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(5);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(5);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF6633FF),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFF6633FF),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(6);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(6);
-                },
-                child: null,
               ),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFCC33FF),
-                  enableFeedback: false,
+              Expanded(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFFCC33FF),
+                    enableFeedback: false,
+                  ),
+                  onPressed: () {
+                    playSound(7);
+                  },
+                  child: null,
                 ),
-                onPressed: () {
-                  playSound(7);
-                },
-                child: null,
               ),
             ],
           ),
